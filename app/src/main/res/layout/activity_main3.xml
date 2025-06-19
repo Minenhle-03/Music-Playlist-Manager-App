@@ -9,14 +9,14 @@
     tools:context=".MainActivity3">
 
 
-    <EditText
-        android:id="@+id/ratingText"
+    <TextView
+        android:id="@+id/playlistText"
         android:layout_width="345dp"
         android:layout_height="131dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:gravity="center"
-        android:hint="Songs will Appear here"
+        android:text="Songs will Appear here"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
@@ -24,14 +24,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.067" />
 
-    <EditText
+    <TextView
         android:id="@+id/averageText"
         android:layout_width="364dp"
         android:layout_height="71dp"
         android:background="#FFFFFF"
         android:ems="10"
         android:gravity="center"
-        android:hint="The Rating Average will appear here"
+        android:text="The Rating Average will appear here"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
