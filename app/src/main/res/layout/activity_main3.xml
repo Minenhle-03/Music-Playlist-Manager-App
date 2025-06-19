@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FC608DCA"
+    tools:context=".MainActivity3">
+
+
+    <EditText
+        android:id="@+id/ratingText"
+        android:layout_width="345dp"
+        android:layout_height="131dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Songs will Appear here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <EditText
+        android:id="@+id/averageText"
+        android:layout_width="364dp"
+        android:layout_height="71dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="The Rating Average will appear here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457" />
+
+    <Button
+        android:id="@+id/playListButton"
+        android:layout_width="347dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#A6D5CB"
+        android:text="Display Song List"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <Button
+        android:id="@+id/calcAverageButton"
+        android:layout_width="347dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#A6D5CB"
+        android:text="Calculate the Average rating"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="347dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#A6D5CB"
+        android:text="Return To Main Screen"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
